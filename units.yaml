@@ -1,0 +1,293 @@
+---
+units:
+  - name: Marth
+    strength: 10
+    skill: 3
+    weaponLevel: 6
+    speed: 12
+    luck: 12
+    defense: 11
+    resistance: 0
+    hp: 24
+    weapons:
+      - "Rapier"
+      - "Iron Sword"
+      - "Steel Sword"
+  - name: Caeda
+    strength: 3
+    skill: 10
+    weaponLevel: 10
+    speed: 17
+    luck: 13
+    defense: 9
+    resistance: 0
+    hp: 18
+    unitType: "Flying"
+    weapons:
+      - "Iron Lance"
+      - "Armorslayer"
+      - "Silver Lance"
+  - name: Draug
+    strength: 7
+    skill: 3
+    weaponLevel: 4
+    speed: 4
+    luck: 2
+    defense: 11
+    resistance: 0
+    hp: 18
+    unitType: "Armored"
+    weapons:
+      - "Iron Lance"
+      - "Iron Sword"
+  - name: Roger
+    strength: 7
+    skill: 3
+    weaponLevel: 9
+    speed: 5
+    luck: 1
+    defense: 13
+    resistance: 0
+    hp: 22
+    unitType: "Armored"
+    weapons:
+      - "Iron Lance"
+  - name: Hardin
+    strength: 10
+    skill: 9
+    weaponLevel: 11
+    speed: 9
+    luck: 4
+    defense: 8
+    resistance: 0
+    hp: 22
+    unitType: "Horseback"
+    weapons:
+      - "Riversbane"
+      - "Iron Lance"
+      - "Silver Lance"
+  - name: Ogma
+    strength: 6
+    skill: 11
+    weaponLevel: 8
+    speed: 14
+    luck: 5
+    defense: 6
+    resistance: 0
+    hp: 21
+    weapons:
+      - "Iron Sword"
+      - "Steel Sword"
+  - name: Navarre
+    strength: 7
+    skill: 9
+    weaponLevel: 9
+    speed: 14
+    luck: 7
+    defense: 6
+    resistance: 0
+    hp: 22
+    weapons:
+      - "Killing Edge"
+      - "Iron Sword"
+  - name: Wendell
+    strength: 4
+    skill: 1
+    weaponLevel: 13
+    speed: 15
+    luck: 5
+    defense: 9
+    resistance: 0
+    hp: 23
+    weapons:
+      - "Fire"
+      - "Thunder"
+  - name: Merric
+    strength: 1
+    skill: 3
+    weaponLevel: 11
+    speed: 9
+    luck: 5
+    defense: 5
+    resistance: 0
+    hp: 24
+    weapons:
+      - "Fire"
+      - "Thunder"
+      - "Blizzard"
+      - "Excalibur"
+  - name: Julian
+    strength: 4
+    skill: 6
+    weaponLevel: 2
+    speed: 12
+    luck: 7
+    defense: 4
+    resistance: 0
+    hp: 17
+    weapons:
+      - "Iron Sword"
+  - name: Wolf
+    strength: 6
+    skill: 5
+    weaponLevel: 7
+    speed: 9
+    luck: 6
+    defense: 4
+    resistance: 0
+    hp: 19
+    unitType: "Horseback"
+    weapons:
+      - "Steel Bow"
+  - name: Abel
+    strength: 7
+    skill: 8
+    weaponLevel: 10
+    speed: 11
+    luck: 3
+    defense: 7
+    resistance: 0
+    hp: 22
+    unitType: "Horseback"
+    weapons:
+      - "Iron Lance"
+      - "Iron Sword"
+      - "Javelin"
+      - "Silver Lance"
+  - name: Jagen
+    strength: 7
+    skill: 12
+    weaponLevel: 10
+    speed: 8
+    luck: 1
+    defense: 9
+    resistance: 0
+    hp: 21
+    unitType: "Horseback"
+    weapons:
+      - "Iron Sword"
+      - "Steel Sword"
+      - "Silver Lance"
+  - name: Darros
+    strength: 7
+    skill: 2
+    weaponLevel: 6
+    speed: 7
+    luck: 2
+    defense: 6
+    resistance: 0
+    hp: 23
+    weapons:
+      - "Steel Axe"
+      - "Devil Axe"  # 19% backfire rate
+  - name: Lena
+    strength: 1
+    skill: 7
+    weaponLevel: 7
+    speed: 9
+    luck: 8
+    defense: 3
+    resistance: 0
+    hp: 16
+    weapons:
+      - "Iron Sword"
+  - name: Bantu
+    strength: 2
+    skill: 3
+    weaponLevel: 2
+    speed: 4
+    luck: 1
+    defense: 15  # 3 + 12 firestone
+    resistance: 0
+    hp: 18
+    unitType: "Dragon"
+    weapons:
+      - "Firestone"
+  - name: Jeorge
+    strength: 7
+    skill: 10
+    weaponLevel: 11
+    speed: 13
+    luck: 4
+    defense: 8
+    resistance: 0
+    hp: 25
+    weapons:
+      - "Steel Bow"
+      - "Silver Bow"
+  - name: Castor
+    strength: 11
+    skill: 4
+    weaponLevel: 6
+    speed: 6
+    luck: 5
+    defense: 6
+    resistance: 0
+    hp: 22
+    weapons:
+      - "Iron Bow"
+      - "Steel Bow"
+      - "Bowgun"
+  - name: Barst
+    strength: 13
+    skill: 8
+    weaponLevel: 8
+    speed: 11
+    luck: 8
+    defense: 8
+    resistance: 0
+    hp: 26
+    weapons:
+      - "Hammer"
+      - "Hand Axe"
+      - "Steel Axe"
+      - "Devil Axe"  # 14 backfire rate
+  - name: Cord
+    strength: 7
+    skill: 6
+    weaponLevel: 5
+    speed: 10
+    luck: 5
+    defense: 6
+    resistance: 0
+    hp: 23
+    weapons:
+      - "Hammer"
+      - "Steel Axe"
+      - "Iron Axe"
+  - name: Bord
+    strength: 9
+    skill: 7
+    weaponLevel: 7
+    speed: 7
+    luck: 1
+    defense: 6
+    resistance: 0
+    hp: 23
+    weapons:
+      - "Hammer"
+      - "Hand Axe"
+      - "Iron Axe"
+  - name: Minerva
+    strength: 9
+    skill: 3
+    weaponLevel: 10
+    speed: 6
+    luck: 0
+    defense: 14
+    resistance: 0
+    hp: 22
+    weapons:
+      - "Javelin"
+  - name: Zharov
+    strength: 10
+    skill: 2
+    weaponLevel: 14
+    speed: 5
+    luck: 0
+    defense: 15
+    resistance: 0
+    hp: 31
+    unitType: "Armored"
+    weapons:
+      - "Steel Sword"

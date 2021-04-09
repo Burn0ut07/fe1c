@@ -1,0 +1,118 @@
+---
+weapons:
+  - name: "Rapier"
+    might: 5
+    weight: 1
+    hit: 100
+  - name: "Killing Edge"
+    might: 8
+    weight: 2
+    hit: 100
+    effectiveAgainst:
+      - "Armored"
+  - name: "Iron Sword"
+    might: 5
+    weight: 2
+    hit: 100
+  - name: "Armorslayer"
+    might: 5
+    weight: 2
+    hit: 80
+    effectiveAgainst:
+      - "Armored"
+  - name: "Steel Sword"
+    might: 8
+    weight: 4
+    hit: 80
+  - name: "Silver Sword"
+    might: 12
+    weight: 3
+    hit: 100
+  - name: "Hand Axe"
+    might: 5
+    weight: 9
+    hit: 60
+  - name: "Iron Axe"
+    might: 7
+    weight: 7
+    hit: 80
+  - name: "Steel Axe"
+    might: 9
+    weight: 9
+    hit: 70
+  - name: "Devil Axe"
+    might: 20
+    weight: 14
+    hit: 70
+  - name: "Hammer"
+    might: 6
+    weight: 6
+    hit: 70
+    effectiveAgainst:
+      - "Armored"
+  - name: "Riversbane"
+    might: 5
+    weight: 5
+    hit: 90
+    effectiveAgainst:
+      - "Horseback"
+  - name: "Javelin"
+    might: 7
+    weight: 6
+    hit: 70
+  - name: "Iron Lance"
+    might: 8
+    weight: 6
+    hit: 100
+  - name: "Silver Lance"
+    might: 12
+    weight: 7
+    hit: 80
+  - name: "Iron Bow"
+    might: 4
+    weight: 1
+    hit: 90
+    effectiveAgainst:
+      - "Flying"
+  - name: "Bowgun"
+    might: 5
+    weight: 2
+    hit: 100
+    effectiveAgainst:
+      - "Flying"
+  - name: "Steel Bow"
+    might: 7
+    weight: 3
+    hit: 80
+    effectiveAgainst:
+      - "Flying"
+  - name: "Silver Bow"
+    might: 11
+    weight: 6
+    hit: 80
+    effectiveAgainst:
+      - "Flying"
+  - name: "Fire"
+    might: 5
+    weight: 0
+    hit: 100
+    magic: true
+  - name: "Thunder"
+    might: 6
+    weight: 1
+    hit: 90
+    magic: true
+  - name: "Blizzard"
+    might: 7
+    weight: 2
+    hit: 80
+    magic: true
+  - name: "Excalibur"
+    might: 13
+    weight: 3
+    hit: 100
+    magic: true
+  - name: "Firestone"
+    might: 16
+    weight: 3
+    hit: 80
